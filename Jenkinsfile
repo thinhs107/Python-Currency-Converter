@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout Code') {
       steps {
-        git(url: 'https://github.com/thinhs107/Python-Currency-Converter', branch: 'dev')
+        git(url: 'https://github.com/thinhs107/Python-Currency-Converter', branch: 'test')
       }
     }
 
